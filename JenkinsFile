@@ -1,0 +1,13 @@
+# jenkins1
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Compile') {
+            steps {
+                 javac C'
+            }
+        }
+    }
+}
